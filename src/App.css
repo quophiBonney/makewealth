@@ -1,7 +1,8 @@
 body {
-  background-color: rgb(8, 113, 178);
+  background-color: rgb(84, 108, 203);
   color: #fff;
   overflow-x: hidden;
+  width: 100%;
 }
 .navbar {
   background: transparent;
@@ -43,6 +44,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x:hidden;
+  }
   .mainText {
     font-size: 35px;
     margin-top: 30px;
@@ -52,4 +56,5 @@ body {
     height: 400px;
     object-fit: cover;
   }
+
 }

@@ -25,7 +25,7 @@ const Main = () => {
               Track All Your Transactions Right On Your Phone
             </h1>
             <p className="subText">
-              With our mobile banking service, you can easily all your
+              With our mobile banking service, you can easily track all your
               transactions anywhre, anytime and anyday.
             </p>
             <a
