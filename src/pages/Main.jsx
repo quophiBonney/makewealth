@@ -19,6 +19,7 @@ const Main = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="100"
+            className="px-4 mb-5 mt-5"
           >
             <h1 className="mainText">
               Track All Your Transactions Right On Your Phone
@@ -42,6 +43,7 @@ const Main = () => {
             data-aos="zoom-in"
             data-aos-duration="2000"
             data-aos-delay="500"
+            className="px-4 mb-5 mt-5"
           >
             <img
               src={Banking}

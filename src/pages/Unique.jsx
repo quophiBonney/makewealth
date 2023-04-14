@@ -15,6 +15,7 @@ const Unique = () => {
             data-aos="slide-right"
             data-aos-duration="1000"
             data-aos-delay="100"
+            className="px-4 mb-5 mt-5"
           >
             <img
               src={Leaders}
@@ -29,6 +30,7 @@ const Unique = () => {
             data-aos="slide-left"
             data-aos-duration="3000"
             data-aos-delay="500"
+            className="px-4 mb-5 mt-5"
           >
             <h1 className="mainText">
               Are You Worried About Your Finances
