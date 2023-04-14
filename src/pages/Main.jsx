@@ -19,15 +19,15 @@ const Main = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="100"
-            className="px-4 mb-5 mt-5"
+            className="px-4 mb-3"
           >
             <h1 className="mainText">
               Track All Your Transactions Right On Your Phone
             </h1>
-            <h3 className="subText">
+            <p className="subText">
               With our mobile banking service, you can easily all your
               transactions anywhre, anytime and anyday.
-            </h3>
+            </p>
             <a
               href="https://wa.me/+233245153283"
               className="btn btn-light text-primary mt-3"
@@ -43,7 +43,7 @@ const Main = () => {
             data-aos="zoom-in"
             data-aos-duration="2000"
             data-aos-delay="500"
-            className="px-4 mb-5 mt-5"
+            className="px-4 mb-3"
           >
             <img
               src={Banking}

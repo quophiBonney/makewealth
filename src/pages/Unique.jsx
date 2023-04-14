@@ -15,7 +15,7 @@ const Unique = () => {
             data-aos="slide-right"
             data-aos-duration="1000"
             data-aos-delay="100"
-            className="px-4 mb-5 mt-5"
+            className="px-4 mb-3"
           >
             <img
               src={Leaders}
@@ -30,18 +30,18 @@ const Unique = () => {
             data-aos="slide-left"
             data-aos-duration="3000"
             data-aos-delay="500"
-            className="px-4 mb-5 mt-5"
+            className="px-4 mb-3"
           >
             <h1 className="mainText">
               Are You Worried About Your Finances
               <span className="question-mark">?</span>
             </h1>
-            <h3 className="subText">
+            <p className="subText">
               We are the leading banking firm with the track record to help your
               financial life turn around for your good. We are the only firm
               that guides our customers in their investment till they
               breakthrough financially.
-            </h3>
+            </p>
             <a
               href="https://wa.me/+233245153283"
               className="btn btn-light connect-btn mt-3"
