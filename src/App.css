@@ -37,6 +37,8 @@ body {
 .unique {
   background: #e2d4f1;
   color: #000;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .connect-btn {
   color: rgb(109, 109, 109);
