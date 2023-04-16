@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <Navbar expand="lg" className="navbar">
         <Container>
-          <Navbar.Brand href="#home" className="logo">
+          <Navbar.Brand href="/" className="logo">
             GIM
           </Navbar.Brand>
           <Navbar.Toggle
@@ -15,20 +15,7 @@ const Header = () => {
             className="bg-light"
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto" navbarScroll>
-              <Nav.Link href="/" className="links">
-                Home
-              </Nav.Link>
-              <Nav.Link href="/unique" className="links">
-                Benefits
-              </Nav.Link>
-              <Nav.Link href="/about" className="links">
-                About Us
-              </Nav.Link>
-              <Nav.Link href="/contact" className="links">
-                Contact
-              </Nav.Link>
-            </Nav>
+            <Nav className="me-auto" navbarScroll></Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>

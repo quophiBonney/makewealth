@@ -26,6 +26,10 @@ function App() {
         <Benefit/>
         <Uniqueness/>
         <Footer/>
+        <Routes>
+      <Route path="/features" Component={Features}/>
+      <Route path="/benefit" exact Component={Benefit}/>
+      </Routes>
       </Router>
     </div>
   );
