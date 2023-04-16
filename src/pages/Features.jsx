@@ -1,17 +1,13 @@
 import React from "react";
 import {Container, Row, Col, Button} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import Banking from "../images/faq.png";
 import {
-  BsEmojiLaughingFill,
   BsHouse,
   BsFillPeopleFill,
   BsEmojiSmileFill,
   BsPiggyBank,
   BsBank2,
 } from "react-icons/bs";
-import AOS from "aos";
-import "aos/dist/aos.css";
 const Features = () => {
   return (
     <div className="main-container features">

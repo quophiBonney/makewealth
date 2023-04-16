@@ -7,6 +7,7 @@ import {
   BsFullscreen,
   BsLaptopFill,
   BsWalletFill,
+  BsCashCoin,
 } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -59,10 +60,7 @@ const Digital = () => {
               <BsWalletFill className="lap-icon m-2" />
             </a>
             <a href="">
-              <BsWalletFill className="lap-icon m-2" />
-            </a>
-            <a href="">
-              <BsWhatsapp className="lap-icon m-2" />
+              <BsCashCoin className="lap-icon m-2" />
             </a>
           </Col>
         </Row>
