@@ -1,13 +1,9 @@
 import React, {useEffect} from "react";
 import {Container, Row, Col, Button} from "react-bootstrap";
-import Banking from "../images/cashble.png";
+import cheap from "../images/cheap.png";
 import {BsFillPeopleFill} from "react-icons/bs";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import Carousel from "react-bootstrap/Carousel";
 const Main = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div>
       <Container>
@@ -19,20 +15,21 @@ const Main = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="100"
-            className="px-4 mb-3"
+            className="px-4 mt-3 mb-3"
           >
             <h1 className="mainText">
-              Track All Your Transactions Right On Your Phone
+              How to Grow Your Wealth With Smart Banking: The Benefits of
+              Investing with Our Bank.
             </h1>
             <p className="subText">
-              With our mobile banking service, you can easily track all your
-              transactions anywhre, anytime and anyday.
+              We are the multinational banking firm that gives you more than{" "}
+              <strong>10%</strong> on your investment without any risk.
             </p>
             <a
               href="https://wa.me/+233245153283"
-              className="btn btn-light text-primary mt-3"
+              className="btn btn-enquiries mt-2"
             >
-              Make Enquiries
+              Start Your Investment
               <BsFillPeopleFill className="m-2" />
             </a>
           </Col>
@@ -43,12 +40,12 @@ const Main = () => {
             data-aos="zoom-in"
             data-aos-duration="2000"
             data-aos-delay="500"
-            className="px-4 mb-3"
+            className="px-4 mt-3 mb-3"
           >
             <img
-              src={Banking}
-              className="img-fluid img-responsive mob-banking"
-              alt="mobile banking"
+              src={cheap}
+              className="img-fluid img-responsiven carousel-img"
+              alt=""
             />
           </Col>
         </Row>
