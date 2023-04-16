@@ -162,10 +162,10 @@ ul {
     font-size: 30px;
     margin-top: 30px;
   }
-  .mob-banking, .side-img, .money-img {
+  .mob-banking, .side-img, .money-img, .carousel-img {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: 350px;
+    object-fit: fill;
   }
   .flex {
     justify-content: center;
@@ -175,8 +175,10 @@ ul {
   .feature-title {
     font-size: 18px;
   }
-  .footer-link-header, .footer-link {
+  .footer-link-header{
     font-size: 13px;
+  } .footer-link {
+    font-size: 11px;
   }
 
 }
