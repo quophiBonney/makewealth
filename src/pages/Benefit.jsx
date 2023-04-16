@@ -9,7 +9,7 @@ import {BsChatHeart, BsPerson} from "react-icons/bs";
 const Benefit = () => {
   return (
     <div>
-      <Container>
+      <Container className="main-container">
         <Row className="justify-content-center">
           <Col
             sm={12}

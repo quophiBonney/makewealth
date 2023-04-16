@@ -5,7 +5,7 @@ import Leaders from "../images/worriedsvg.png";
 import {BsPerson} from "react-icons/bs";
 const Unique = () => {
   return (
-    <div className="unique">
+    <div className="main-container unique">
       <Container>
         <Row className="justify-content-center">
           <Col

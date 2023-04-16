@@ -8,7 +8,7 @@ import {Carousel} from "react-bootstrap";
 import {BsPerson} from "react-icons/bs";
 const Team = () => {
   return (
-    <div>
+    <div className="main-container">
       <Container>
         <Row className="justify-content-center">
           <Col

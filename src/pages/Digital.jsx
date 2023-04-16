@@ -12,7 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 const Digital = () => {
   return (
-    <div>
+    <div className="main-container">
       <Container>
         <Row className="justify-content-center">
           <Col

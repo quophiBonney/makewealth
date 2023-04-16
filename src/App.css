@@ -180,5 +180,8 @@ ul {
   } .footer-link {
     font-size: 11px;
   }
-
+  .main-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
 }

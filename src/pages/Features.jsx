@@ -14,7 +14,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 const Features = () => {
   return (
-    <div className="features">
+    <div className="main-container features">
       <Container
         data-aos="zoom-out"
         data-aos-delay="100"

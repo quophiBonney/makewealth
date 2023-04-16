@@ -5,7 +5,7 @@ import {BsCashCoin, BsFillPeopleFill} from "react-icons/bs";
 import Carousel from "react-bootstrap/Carousel";
 const Main = () => {
   return (
-    <div>
+    <div className="main-container">
       <Container>
         <Row className="justify-content-center">
           <Col
